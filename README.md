@@ -1,6 +1,6 @@
 # java11-1z0-819
 
-##Part I: Exam 1Z0‐815, OCP Java SE 11 Programmer I:
+## Part I: Exam 1Z0‐815, OCP Java SE 11 Programmer I:
 
 - **Chapter 1: Welcome to Java** describes the basics of Java such as how to run a program. It also includes the benefits of Java and key terminology.
 - **Chapter 2: Java Building Blocks** focuses on variables such as primitives and object data types and scoping variables. It also discusses garbage collection.
@@ -14,7 +14,7 @@
 - **Chapter 10: Exceptions** shows the different types of exception classes and how to use them. It also includes different uses of try statements.
 - **Chapter 11: Modules** details the benefits of the new module feature. It shows how to compile and run module programs from the command line.
 
-##Part II: Exam 1Z0‐816, OCP Java SE 11 Programmer II
+## Part II: Exam 1Z0‐816, OCP Java SE 11 Programmer II
 
 - **Chapter 12: Java Fundamentals** covers core Java topics including enums, the final modifier, inner classes, and interfaces. There are now
 many types of functional interface methods that you need to know for the exam. It also includes an introduction to creating functional interfaces and lambda expressions.
