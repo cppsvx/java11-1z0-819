@@ -1,7 +1,7 @@
 # java11-1z0-819
 
 ## Part I: Exam 1Z0‐815, OCP Java SE 11 Programmer I:
-- [**Chapter 1: Welcome to Java**](../tree/main/src/main/java/com/craneos/java11/part1/chapter1/README.md)
+- [**Chapter 1: Welcome to Java**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter1)
 - **Chapter 1: Welcome to Java** describes the basics of Java such as how to run a program. It also includes the benefits of Java and key terminology.
 - **Chapter 2: Java Building Blocks** focuses on variables such as primitives and object data types and scoping variables. It also discusses garbage collection.
 - **Chapter 3: Operators** explains operations with variables. It also talks about casting and the precedence of operators.
