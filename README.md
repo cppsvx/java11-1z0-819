@@ -1,18 +1,17 @@
 # java11-1z0-819
 
 ## Part I: Exam 1Z0‐815, OCP Java SE 11 Programmer I:
-- [**Chapter 1: Welcome to Java**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter1)
-- **Chapter 1: Welcome to Java** describes the basics of Java such as how to run a program. It also includes the benefits of Java and key terminology.
-- **Chapter 2: Java Building Blocks** focuses on variables such as primitives and object data types and scoping variables. It also discusses garbage collection.
-- **Chapter 3: Operators** explains operations with variables. It also talks about casting and the precedence of operators.
-- **Chapter 4: Making Decisions** covers on core logical constructs such as conditionals and loops.
-- **Chapter 5: Core Java APIs** introduces you to String, StringBuilder, array, and various types.
-- **Chapter 6: Lambdas and Functional** Interfaces shows how to use lambdas and four key functional interfaces. The focus is implementing and calling Predicate, Consumer, Supplier, and Comparator.
-- **Chapter 7: Methods and Encapsulation** explains how to write methods. It also shows the four access modifiers.
-- **Chapter 8: Class Design** covers constructors and superclasses. It also includes method overriding.
-- **Chapter 9: Advanced Class Design** adds interfaces and abstract classes. It also introduces inner classes.
-- **Chapter 10: Exceptions** shows the different types of exception classes and how to use them. It also includes different uses of try statements.
-- **Chapter 11: Modules** details the benefits of the new module feature. It shows how to compile and run module programs from the command line.
+- [**Chapter 1: Welcome to Java**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter1) describes the basics of Java such as how to run a program. It also includes the benefits of Java and key terminology.
+- [**Chapter 2: Java Building Blocks**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter2) focuses on variables such as primitives and object data types and scoping variables. It also discusses garbage collection.
+- [**Chapter 3: Operators**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter3) explains operations with variables. It also talks about casting and the precedence of operators.
+- [**Chapter 4: Making Decisions**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter4) covers on core logical constructs such as conditionals and loops.
+- [**Chapter 5: Core Java APIs**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter5) introduces you to String, StringBuilder, array, and various types.
+- [**Chapter 6: Lambdas and Functional**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter6) Interfaces shows how to use lambdas and four key functional interfaces. The focus is implementing and calling Predicate, Consumer, Supplier, and Comparator.
+- [**Chapter 7: Methods and Encapsulation**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter7) explains how to write methods. It also shows the four access modifiers.
+- [**Chapter 8: Class Design**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter8) covers constructors and superclasses. It also includes method overriding.
+- [**Chapter 9: Advanced Class Design**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter9) adds interfaces and abstract classes. It also introduces inner classes.
+- [**Chapter 10: Exceptions**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter10) shows the different types of exception classes and how to use them. It also includes different uses of try statements.
+- [**Chapter 11: Modules**](../../tree/main/src/main/java/com/craneos/java11/part1/chapter11) details the benefits of the new module feature. It shows how to compile and run module programs from the command line.
 
 ## Part II: Exam 1Z0‐816, OCP Java SE 11 Programmer II
 
