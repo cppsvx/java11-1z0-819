@@ -3,6 +3,7 @@
 ### CLASS DESIGN
 
 ####ACCESS MODIFIERS
+
 | MODIFIER     | DESCRIPTION |
 | ------------ | ------------ |
 | **private** | The private modifier means the method can be called only from within the same class. |
@@ -12,6 +13,7 @@
 
 
 ####OPTIONAL MODIFIERS
+
 | MODIFIER     | DESCRIPTION |
 | ------------ | ------------ |
 | **abstract** | The abstract modifier is used when a method body is not provided. It will be covered in Chapter 9. |
