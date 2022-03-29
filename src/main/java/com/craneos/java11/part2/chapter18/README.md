@@ -47,6 +47,16 @@ thread executor and wait to be completed.
 | AtomicInteger | An int value that may be updated atomically |
 | AtomicLong | A long value that may be updated atomically |
 
+| Method | Operator | Description |
+| ------ | ------ | ------ |
+| get() | get  | Retrieves the current value | 
+| set() | = | Sets the given value, equivalent to the assignment = operator |
+| getAndSet() | get and = | Atomically sets the new value and returns the old value |
+| incrementAndGet() | ++value | For numeric classes, atomic pre‐increment operation equivalent to ++value |
+| getAndIncrement() | value++ | For numeric classes, atomic post‐increment operation equivalent to value++ |
+| decrementAndGet() | --value | For numeric classes, atomic pre‐decrement operation equivalent to ‐‐value |
+| getAndDecrement() | value-- | For numeric classes, atomic post‐decrement operation equivalent to value‐‐
+
 ####EXAM
 - Starts at page 1139
 - Review 

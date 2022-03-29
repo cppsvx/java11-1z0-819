@@ -56,4 +56,8 @@ public class ExampleMulti {
         System.out.print((atomicSheepCount.getAndAdd(1))+" ");
     }
 
+    private void atomicIncrementAndReport2() {
+        System.out.print((atomicSheepCount.getAndIncrement())+" ");
+    }
+
 }
