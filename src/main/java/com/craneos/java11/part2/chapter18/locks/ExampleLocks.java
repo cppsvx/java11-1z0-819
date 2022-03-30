@@ -1,7 +1,5 @@
 package com.craneos.java11.part2.chapter18.locks;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -12,13 +10,13 @@ public class ExampleLocks {
     private int sheepCount = 0;
 
     public static void main(String[] args) throws Exception {
-        testCaseComparingExample();
-        testCaseTry();
-        testcase2();
+        testComparingExample();
+        testTry();
+        testReentrantLock();
     }
 
-    private static void testCaseComparingExample(){
-        System.out.println("----------------------------- testCaseComparingExample ------------------------");
+    private static void testComparingExample(){
+        System.out.println("----------------------------- testComparingExample ------------------------");
         // Implementation #1 with a synchronized block
         Object object = new Object();
         synchronized(object) { // Protected code
@@ -33,8 +31,8 @@ public class ExampleLocks {
         }
     }
 
-    private static void testCaseTry(){
-        System.out.println("----------------------------- testCaseTry ------------------------");
+    private static void testTry(){
+        System.out.println("----------------------------- testTry ------------------------");
         Lock lock = new ReentrantLock();
         new Thread(() -> printMessage(lock)).start();
         if(lock.tryLock()) {
@@ -59,8 +57,8 @@ public class ExampleLocks {
         }
     }
 
-    private static void testcase2(){
-        System.out.println("----------------------------- testcase2 ------------------------");
+    private static void testReentrantLock(){
+        System.out.println("----------------------------- testReentrantLock ------------------------");
         Lock lock = new ReentrantLock();
         try {
             System.out.println("// Error. Trying to unlock when there is no lock");

@@ -1,6 +1,5 @@
 package com.craneos.java11.part2.chapter18.scheduling;
 
-import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;

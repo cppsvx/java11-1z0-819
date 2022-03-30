@@ -3,6 +3,7 @@
 ### ADVANCED CLASS DESIGN
 
 RUNTIMEEXCEPTION CLASSES
+
 RuntimeException and its subclasses are **UNCHECKED** exceptions that don’t
 have to be handled or declared. They can be thrown by the programmer or
 by the JVM. Common RuntimeException classes include the following:

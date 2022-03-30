@@ -6,7 +6,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-import java.util.concurrent.TimeUnit;
 
 /**
  * For the exam, remember that the invokeAll() method will wait
@@ -16,11 +15,11 @@ import java.util.concurrent.TimeUnit;
 public class ExampleCollections {
 
     public static void main(String[] args) throws Exception {
-        testcaseInvokeAll();
-        testcaseInvokeAny();
+        testInvokeAll();
+        testInvokeAny();
     }
 
-    private static void testcaseInvokeAll() throws ExecutionException, InterruptedException {
+    private static void testInvokeAll() throws ExecutionException, InterruptedException {
         System.out.println("\n----------------------------- testcaseInvokeAll ------------------------");
         ExecutorService service = null;
         try {
@@ -42,7 +41,7 @@ public class ExampleCollections {
         }
     }
 
-    private static void testcaseInvokeAny() throws ExecutionException, InterruptedException {
+    private static void testInvokeAny() throws ExecutionException, InterruptedException {
         System.out.println("\n----------------------------- testcaseInvokeAny ------------------------");
         ExecutorService service = null;
         try {

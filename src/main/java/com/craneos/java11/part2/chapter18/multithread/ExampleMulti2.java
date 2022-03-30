@@ -2,7 +2,6 @@ package com.craneos.java11.part2.chapter18.multithread;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class ExampleMulti2 {
 

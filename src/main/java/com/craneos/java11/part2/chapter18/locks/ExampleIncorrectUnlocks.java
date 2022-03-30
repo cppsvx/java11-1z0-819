@@ -6,14 +6,14 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ExampleIncorrectUnlocks {
 
     public static void main(String[] args) throws Exception {
-        testCaseIncorrectLock();
+        testIncorrectLock();
     }
 
     /**
      * Lock twice
      */
-    private static void testCaseIncorrectLock(){
-        System.out.println("----------------------------- testCaseComparingExample ------------------------");
+    private static void testIncorrectLock(){
+        System.out.println("----------------------------- testIncorrectLock ------------------------");
         Lock lock = new ReentrantLock();
         if(lock.tryLock()) {
             try {
